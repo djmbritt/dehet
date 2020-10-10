@@ -1,0 +1,8 @@
+version: '2'
+services:
+  dehet-app:
+    build: ../../..
+    container_name: dehet-app
+    environment:
+    ports:
+      - 8081:8081
