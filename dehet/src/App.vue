@@ -1,14 +1,24 @@
 <template>
-  <div id="app">
-    
-    <h1>Hello</h1>
+      <div>
+        <b-form-textarea
+          id="textarea"
+          v-model="text"
+          placeholder="Enter something..."
+          rows="3"
+          max-rows="6"
+        ></b-form-textarea>
 
-    <form method="get" action="">
-      <div class="form-group">
-        <label for="checker">DeHet</label>
-        <input id="checker" class="form-control" type="text" name="">
-      </div>
-    </form>
+        <pre class="mt-3 mb-0">{{ text }}</pre>
+      </div>      
 
-  </div>
 </template>
+
+<script>
+      export default {
+        data() {
+          return {
+            text: ''
+          }
+        }
+      }
+</script>
