@@ -39,11 +39,13 @@
     </v-main>
 
     <!-- Footer -->
-    <v-footer padless>
+    <v-footer absolute>
       <v-col
         class="text-center"
         cols="12"
         max-height="10px"
+        inset=true
+        padless=true
       >
         Made with ❤ in Amsterdam.
       </v-col>
