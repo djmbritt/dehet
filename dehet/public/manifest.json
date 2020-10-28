@@ -1,0 +1,10 @@
+{
+    "name": "VueDeHetAPP",
+    "short_name": "VueDeHetApp",
+    "theme_color": "#36495d",
+    "background_color": "#36495d",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+}
